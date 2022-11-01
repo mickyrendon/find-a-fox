@@ -22,7 +22,6 @@ export const registerImg = (image) => {
 }
 // TODO 
 /* 
-    1- agrgar un boton de eliminar todo
     2- agregar un fondo gris al cargar la imagen, las imgs deben cargar encima del cuadro gris
     3- agregar un reporte en la consola de los nodos creados y las imagenes cargadas
 */
