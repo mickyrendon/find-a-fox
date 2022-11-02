@@ -6,7 +6,8 @@
     "lint": "prettier --check \"src/**/*.js\"",
     "pre-commit": "pretty-quick --staged",
     "install:husky": "husky install", 
-    "home" : "https://mickyrendon.github.io/find-a-fox/"
+    "home" : "https://mickyrendon.github.io/find-a-fox/",
+    "type" : "module"
     
   },
   "devDependencies": {
