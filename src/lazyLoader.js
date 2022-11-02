@@ -25,20 +25,13 @@ const observer = new IntersectionObserver((entries) => {
 
 export const registerImg = (image) => {
     observer.observe(image)  
+    console.log('registrando una imagen');
+    totalImages += 1;
+    logState()
 }
 
-export const registerImage = (image) => {
-    observer.observe(image)
-    // totalImages += 1;
-    // logState()
-};
-  
 export function logState(a) {
-    console.log(`⚪️ Imágenes creadas lazy: ${a}`) // TOFIX: //TO FIX
+    console.log(`⚪️ Imágenes creadas lazy: ${totalImages}`) // TOFIX: //TO FIX
     console.log(`🟣 Imágenes cargadas: ${loadedImages}`);
     console.log("--------------------------------------");
 }
-// TODO 
-/* 
-    3- agregar un reporte en la consola de los nodos creados y las imagenes cargadas
-*/

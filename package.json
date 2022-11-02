@@ -6,6 +6,7 @@
     "lint": "prettier --check \"src/**/*.js\"",
     "pre-commit": "pretty-quick --staged",
     "install:husky": "husky install"
+    
   },
   "devDependencies": {
     "husky": "7",

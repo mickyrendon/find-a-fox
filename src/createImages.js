@@ -1,12 +1,9 @@
-import { registerImg, logState } from "./lazyLoader.js"
+import { registerImg } from "./lazyLoader.js"
 import { random } from "./random.js"
 
 const nodeImg = document.querySelector('#node-img')
 const baseUrl  = 'https://randomfox.ca/images/'
 const extension = '.jpg'
-
-// const allImages = document.querySelectorAll("img[data-src]");
-// allImages.forEach(registerImg);
 
 const createImg = () => {
     const imgCtr = document.createElement('div')
@@ -25,5 +22,4 @@ export const addImg = () => {
     const newImg = createImg()
     nodeImg.append(newImg)
     registerImg(newImg)
-    logState(nodeImg.childElementCount)
 }

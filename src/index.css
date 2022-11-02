@@ -3,9 +3,9 @@
 @import 'tailwindcss/dist/utilities.css';
 
 .btns-ctr{
-    margin-top: 2rem;
+    margin: 2rem auto;
     padding: 0.5rem 0;
-    width: 100%;
+    width: 45%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
