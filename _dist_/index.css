@@ -1,0 +1,23 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+.btns-ctr{
+    margin: 2rem auto;
+    padding: 0.5rem 0;
+    width: 45%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+.gray{
+    background-color: gray;
+}
+.p{
+    position: relative;
+    z-index: 5;
+}
